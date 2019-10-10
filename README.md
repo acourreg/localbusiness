@@ -3,6 +3,8 @@ The purpose of this Udacity project is to gather small and mid size businesses d
 
 So it can help entrepreneurs to explore some business opportunities in the town and sector they like, thanks to some metrics.
 
+Credits for used datasets are in credits.txt
+
 ## Quicklaunch
 
 you can clone this project, then launch the server (if you have pyspark installed localy)

@@ -1,0 +1,8 @@
+Datasets used in this project:
+
+Kaggle - USstates Dataset - analysis with pandas - Giovanna de Vincenzo
+simplemaps - United States Cities Database (Free version) - Creative Commons Attribution 4.0
+data.world - US Economic Census Core Data by Industry, 2012 and 2007 - BY GARY HOOVER
+data.world - 2012 US Industry Data - BY GARY HOOVER
+data.world - INC 5000 - 2019 - BY AURIELLE PERLMANN
+data.world - Free 7+ Million Company Dataset - IN PEOPLE DATA LABS
