@@ -19,7 +19,7 @@ If you are interested only in data-pipeline part, you can launch the jupyter not
 jupyter notebook
 ```
 
-![image](https://cloud.githubusercontent.com/assets/9053854/24495974/fbf2e0cc-1547-11e7-846c-25b5fac7f6b1.png)
+![image](https://github.com/acourreg/localbusiness/blob/master/screenshot.png?raw=true)
 
 
 ! Some functionalities on the app are for demo purpose - not fully implemented
