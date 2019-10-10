@@ -30,8 +30,7 @@ def entry_point():
 	sector = sector_table.where(sector_table.naics == currentSectorId).first()
 	economics = eco_table.where(eco_table.naics == currentSectorId).where(eco_table.state_id == currentStateId).first()
 
-	print(economics)
-
+	print(state)
 	return '''
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
@@ -68,8 +67,8 @@ def entry_point():
 
 		    <hr>
 
-		    <h2>Economic data for '''+sector[0]['name']+''' in '''+state[0]['name']+'''</h2>
-		    <span class="badge badge-primary">Population: '''+state.population+'''</span>
+		    <h2>Economic data for '+sector.name+' in '+state.name+'</h2>
+		    <span class="badge badge-primary">Population: </span>
 			<span class="badge badge-secondary">Employees in this sector: (request not working for unknown reason)</span>
 
 		    <h2>Example of company in this area</h2>
